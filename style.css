@@ -1,0 +1,156 @@
+/* *{margin: 0; padding:0} */
+
+.navbar {
+overflow: hidden;
+background-color:#A3080C;
+font-family: Arial;
+}
+
+.logo {
+    width: 37px;
+    height: 37px;
+    margin-top: 5px;
+}
+
+.img {
+    text-align: right;
+    margin-right: 5px
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropbtn{
+    font-weight: bold;
+}
+
+.dropdown .dropbtn {
+font-size: 16px; 
+border: none;
+outline: none;
+color: white;
+padding: 15px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+color: #A3080C;
+font-weight: bold;
+background-color:white;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:#A3080C;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.content {
+    margin: auto;
+    width: 80%;
+}
+.bar{
+    float:left;
+    width: 20%;
+}
+
+.logo-kfc{
+/* 
+    width: 37px;
+    height: 37px; */
+    width: 100%;
+    margin-top: 15px;
+}
+
+.mini-content{
+    float:left;
+    text-align: right;
+    width: 80%;
+}
+.menu{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.bar-search{
+    background: #FEC232;
+    width: 95%;
+    padding: 1px;
+    /* margin-bottom: 5px; */
+}
+
+.tag{
+    text-align: center;
+    font-family: Arial;
+}
+
+.search{
+    background: #FFDF93;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.select {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 90%;
+}
+
+.input-search {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    /* margin: auto; */
+    font-size: 12px;
+    width: 80%;  
+}
+
+.btn-search{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 90px;
+    color: #fff;
+    background: #AE0303;
+    font-size: 11px;
+    padding: 3px 7px;
+    border: none;
+    font-family: arial;
+    cursor: pointer;
+}
+.gifs{
+    background-image: url("background.png")
+}
+.gif{
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 12px;
+    width: 30%;
+}
